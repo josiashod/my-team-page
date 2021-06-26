@@ -121,6 +121,10 @@ main{
 
 
 @media(min-width: 1024px){
+    body{
+        padding: 60px 210px;
+    }
+
     .teams {
         grid-template-columns: 1fr 1fr 1fr;
         column-gap: 12px;
@@ -139,6 +143,10 @@ main{
 }
 
 @media(min-width: 1440px){
+    body{
+        padding: 80px 250px;
+    }
+
     .teams .team .member{
         height: 400px;
     }
